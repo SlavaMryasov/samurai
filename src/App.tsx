@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { UseEffectExample1 } from './useEffect/UseEffectExample1';
+import { WidthInfoComponent } from './useEffect/UseEffectExample2';
+import { UseRefExample1 } from './useRef/UseRefExample1';
+import { UseStateExample1 } from './useState/UseStateExample1';
+import { UseStateExample2 } from './useState/UseStateExample2';
+import { UseStateExample3 } from './useState/UseStateExample3';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseStateExample1 /> */}
+      {/* <UseStateExample2 /> */}
+      {/* <UseStateExample3 /> */}
+      {/* <UseEffectExample1 /> */}
+      <WidthInfoComponent />
+      {/* <UseRefExample1 /> */}
     </div>
   );
 }
