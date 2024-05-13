@@ -6,6 +6,8 @@ import { UseRefExample1 } from './useRef/UseRefExample1';
 import { UseStateExample1 } from './useState/UseStateExample1';
 import { UseStateExample2 } from './useState/UseStateExample2';
 import { UseStateExample3 } from './useState/UseStateExample3';
+import { UseRefExample2 } from './useRef/UseRefExample2';
+import { UseRefExample3 } from './useRef/UseRefExample3';
 
 
 function App() {
@@ -19,9 +21,12 @@ function App() {
       {/* <UseEffectExample1 /> */}
 
 
-      <button onClick={() => setVisible(!visible)}>visible</button>
-      {visible && <WidthInfoComponent />}
+      {/* <button onClick={() => setVisible(!visible)}>visible</button>
+      {visible && <WidthInfoComponent />} */}
+
       {/* <UseRefExample1 /> */}
+      {/* <UseRefExample2 /> */}
+      <UseRefExample3 />
     </div>
   );
 }
