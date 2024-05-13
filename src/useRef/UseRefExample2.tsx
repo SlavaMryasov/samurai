@@ -27,4 +27,4 @@ export const UseRefExample2 = () => {
 // этот пример ознакомительный, типа так можно, но не надо
 
 //ответ на вопрос про фокус
-// да, можно фокус задать без useRef, но  нужно использовать useEffect и useState (Example3)
+// да, можно фокус задать без useRef, но  нужно использовать useEffect и useState и localStorage (Example3)
