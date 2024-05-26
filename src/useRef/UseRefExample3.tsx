@@ -22,7 +22,11 @@ export const UseRefExample3 = () => {
 
     return (
         <>
-            <input autoFocus={inputFocus1} />
+            {
+                inputFocus1
+                    ? <input autoFocus={inputFocus1} />
+                    : <input />
+            }
             <button onClick={butHandler}>toggle autofocus1</button>
         </>
     );
